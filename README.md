@@ -27,16 +27,6 @@ Note: Two files (1. lang_mapping_list_2016.pkl and 2. final_movie_genre_year_cou
 │   └───similar_movies
 │       └───genre
 ```
-data
-├── movielense
-│		https://grouplens.org/datasets/movielens/1m/ (all files, without folder)	
-│   ├─ movielense_mapping
-│		https://github.com/sisinflab/LODrecsys-datasets/blob/master/Movielens1M/MappingMovielens2DBpedia-1.2.tsv (renamed to movielensmapping.csv)
-├─  lang_versions
-│		https://wiki.dbpedia.org/downloads-2016-10 (Mappingbased Objects and Instance Types Transitive for each langauge version, .ttl format)
-	├─ mapping_to_other_languages
-	https://wiki.dbpedia.org/downloads-2016-10 (Interlanguage Links for the english language version, .ttl format)
-
 
 # File definition
 Each file contains its own method definitions or program parts, even if they are duplicated in other files. With this techinique so its easier to review and understand the code. 
