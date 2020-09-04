@@ -29,7 +29,7 @@ Note: The files 1. lang_mapping_list_2016.pkl and 2. final_movie_genre_year_coun
 ```
 
 # File definition
-Each file contains its own method definitions or program parts, even if they are duplicated in other files. With this techinique so its easier to review and understand the code. 
+Each file contains method definitions or program parts, even if they are duplicated in other files. With this techinique so it is easier to review and understand each of the submitted files individually. 
 
 1) similar_movie_extractions.py\
 Creates with the use of RDF2Vec python library mentioned above the embeddings for the movies and stores the similar movie lists.
