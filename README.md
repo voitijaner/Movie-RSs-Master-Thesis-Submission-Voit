@@ -31,19 +31,25 @@ Note: The files 1. lang_mapping_list_2016.pkl and 2. final_movie_genre_year_coun
 # File definition
 Each file contains its own method definitions or program parts, even if they are duplicated in other files. With this techinique so its easier to review and understand the code. 
 
-1) similar_movie_extractions.py
+1) similar_movie_extractions.py\
 Creates with the use of RDF2Vec python library mentioned above the embeddings for the movies and stores the similar movie lists.
-2) side_data_to_movie_list.py
+
+2) side_data_to_movie_list.py\
 Transforms the MovieLense movie side data and enriches it with production country informations from Wikidata. 
-3) statistic_calculations.py
+
+3) statistic_calculations.py\
 Calculates the sparsity of the data sets at different points of data preprocessing. 
-4) item_similarity_recommender_overall_performance.py
+
+4) item_similarity_recommender_overall_performance.py\
 Calculates the overall performance over the whole data set for each language version with different k nearest neighbours
-5) item_similarity_recommender_number_of_recommendations_productionCountry_genres.py
+
+5) item_similarity_recommender_number_of_recommendations_productionCountry_genres.py\
 Calculates the number of recommended production countries and genres per language version over the whole dataset
-6) item_similarity_recommender_genre_performance.py
+
+6) item_similarity_recommender_genre_performance.py\
 Calculates the genre specific performances for each language version.
-7) item_similarity_recommender_year_performance.py
+
+7) item_similarity_recommender_year_performance.py\
 Calculates the year specific performance for each langauge verison.
 
 
