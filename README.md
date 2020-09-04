@@ -16,7 +16,7 @@ Final code submission for the master thesis "Cultural differences in various Wik
 
 
 # Intital data which is needed to run the program
-Note: Two files (1. lang_mapping_list_2016.pkl and 2. final_movie_genre_year_county_list.csv) already exist. They will be overwritten by 1. similar_movie_extractions.py and 2. side_data_to_movie_list.py files, but are needed for the opposite program. 
+Note: The files 1. lang_mapping_list_2016.pkl and 2. final_movie_genre_year_county_list.csv / .pkl already exist. They will be overwritten by 1. similar_movie_extractions.py and 2. side_data_to_movie_list.py files, but are needed for the opposite program part.
 ```bash
 ├───data
 │   ├───cosine_similarities
