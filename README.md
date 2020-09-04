@@ -45,3 +45,7 @@ Calculates the number of recommended production countries and genres per languag
 Calculates the genre specific performances for each language version.
 7) item_similarity_recommender_year_performance.py
 Calculates the year specific performance for each langauge verison.
+
+
+# Order of execution 
+The file 1) similar_movie_extractions.py has to be run before the item_similarity_recommender files 4) - 6)
